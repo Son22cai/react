@@ -265,13 +265,14 @@ p.text {
 
 .video-info h3 {
     margin: 0;
-    color: #ffffff;
+    color: blue;
 }
 
 .video-info p {
     margin: 5px 0 0;
     color: #cccccc;
 }
+
 
 .like-button {
     flex-shrink: 0;
@@ -320,7 +321,7 @@ p.text {
 .slides {
     display: flex;
     width: max-content; /* Cho phép chứa được nhiều ảnh */
-    animation: slide-animation 40s linear infinite;
+    animation: slide-animation 10s linear infinite;
 }
 
 .slides img {
