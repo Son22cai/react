@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    text-align: center; /* Căn giữa văn bản trong phần tử body */
+}
+
+.content {
+    display: flex;
+    flex-direction: column; /* Căn theo cột */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa các phần tử */
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa hai ô */
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
